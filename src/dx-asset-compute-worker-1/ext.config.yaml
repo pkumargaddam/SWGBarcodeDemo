@@ -11,14 +11,14 @@ runtimeManifest:
     dx-asset-compute-worker-1:
       license: Apache-2.0
       actions:
-        worker:
-          function: actions/worker/index.js
-          web: 'yes'
-          runtime: nodejs:16
-          limits:
-            concurrency: 10
-          annotations:
-            require-adobe-auth: false
+        #worker:
+          #function: actions/worker/index.js
+          #web: 'yes'
+          #runtime: nodejs:16
+          #limits:
+           # concurrency: 10
+          #annotations:
+            #require-adobe-auth: false 
         swg-barcode-app:
           function: actions/swg-barcode-app/index.js
           web: 'yes'
